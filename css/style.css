@@ -1,0 +1,30 @@
+.user-delete{
+  width: 20px;
+  height: 20px;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border:1px solid;
+  background: #fff;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.user-delete::after{
+  content: '✖';
+  left: 4px;
+  top: 0;
+  display: block;
+  position: absolute;
+}
+li{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+
+}
